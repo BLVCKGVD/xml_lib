@@ -1,0 +1,25 @@
+{
+  "name": "blvckgvd/xml_lib",
+  "description": "PHP library to work with XML files without any problems",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Blvckgvd\\XmlLib\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Антон Шульженко",
+      "email": "antondead1337@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5",
+    "ext-simplexml": "*",
+    "ext-json": "*",
+    "ext-libxml": "*"
+  }
+}
