@@ -27,7 +27,7 @@ Install currencylib with composer
 ```
 
 ## Usage/Examples
-### Get Array from XML
+### Get JSON from XML
 ```php
 use Blvckgvd\XmlLib\XmlLib;
 
